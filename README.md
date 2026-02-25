@@ -35,3 +35,27 @@ A full-stack MERN (MongoDB, Express, React, Node.js) web application designed to
 ---
 
 ## 📂 Project Structure
+Safoua_Academy
+│
+├── Backend
+│   ├── config/          # Database configuration
+│   ├── controllers/     # Business logic
+│   ├── middleware/      # Authentication & authorization middleware
+│   ├── models/          # Mongoose models
+│   ├── routes/          # API routes
+│   ├── server.js        # Entry point of the backend server
+│   └── package.json
+│
+├── Frontend
+│   ├── public/          # Static assets
+│   ├── src/
+│   │   ├── components/  # Reusable UI components
+│   │   ├── pages/       # Application pages (Dashboard, Login, etc.)
+│   │   ├── services/    # API calls (Axios)
+│   │   └── App.jsx
+│   ├── index.html
+│   ├── vite.config.js
+│   └── package.json
+│
+├── .gitignore
+└── README.md
